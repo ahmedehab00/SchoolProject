@@ -15,3 +15,4 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Infrastructure\obj\Debug\n
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Infrastructure\obj\Debug\net9.0\SchoolApp.Infrastructure.pdb
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Infrastructure\obj\Debug\net9.0\SchoolApp.Infrastructure.genruntimeconfig.cache
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Infrastructure\obj\Debug\net9.0\ref\SchoolApp.Infrastructure.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Infrastructure\obj\Debug\net9.0\SchoolApp.Infrastructure.sourcelink.json

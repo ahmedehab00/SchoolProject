@@ -168,3 +168,13 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\ru\Mic
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\MediatR.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\MediatR.Contracts.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\SchoolApp.Core.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\SchoolApp.Service.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\SchoolApp.Core.pdb
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\SchoolApp.Service.pdb
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\obj\Debug\net9.0\SchoolAppApi.sourcelink.json
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

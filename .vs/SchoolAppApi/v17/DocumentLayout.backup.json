@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|solutionrelative:schoolapp.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|solutionrelative:schoolappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.data\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|solutionrelative:schoolapp.data\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|solutionrelative:schoolappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.data\\entities\\departmetsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|solutionrelative:schoolapp.data\\entities\\departmetsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.core\\modulecoredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|solutionrelative:schoolapp.core\\modulecoredependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolappapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|solutionrelative:schoolappapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.service\\moduleservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|solutionrelative:schoolapp.service\\moduleservicedependencies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.core\\features\\student\\quaries\\handler\\studnethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|solutionrelative:schoolapp.core\\features\\student\\quaries\\handler\\studnethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.core\\features\\student\\quaries\\models\\getstudentlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|solutionrelative:schoolapp.core\\features\\student\\quaries\\models\\getstudentlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|solutionrelative:schoolapp.data\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.service\\implemantation\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|solutionrelative:schoolapp.service\\implemantation\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|solutionrelative:schoolapp.infrastructure\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.service\\abstract\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|solutionrelative:schoolapp.service\\abstract\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.infrastructure\\abstract\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|solutionrelative:schoolapp.infrastructure\\abstract\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EBA8912-DE0F-4316-814B-471E1326F894}|SchoolApp.Infrastructure\\SchoolApp.Infrastructure.csproj|solutionrelative:schoolapp.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.data\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|solutionrelative:schoolapp.data\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.data\\entities\\studentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.data\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{600C8AD9-D7F7-42AE-8472-EB9187ABA010}|SchoolApp.Data\\SchoolApp.Data.csproj|solutionrelative:schoolapp.data\\entities\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{803AF24F-99E0-452F-BD02-84E007A989FF}|SchoolAppApi\\SchoolAppApi.csproj|solutionrelative:schoolappapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A8C78C-E26B-4C44-8599-4B261915E698}|SchoolApp.Core\\SchoolApp.Core.csproj|solutionrelative:schoolapp.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|d:\\full stack\\backend\\web api\\schoolproject\\schoolapp.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6249EC63-95AC-4CDD-88EA-6EA74DF40108}|SchoolApp.Service\\SchoolApp.Service.csproj|solutionrelative:schoolapp.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,8 +85,207 @@
               "Name": "ST:0:0:{2d4d7b63-2712-49a6-a309-3ff689de5696}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SchoolAppApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SchoolAppApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-14T20:53:38.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetStudentListQuery.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\Features\\student\\quaries\\Models\\GetStudentListQuery.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Core\\Features\\student\\quaries\\Models\\GetStudentListQuery.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\Features\\student\\quaries\\Models\\GetStudentListQuery.cs",
+              "RelativeToolTip": "SchoolApp.Core\\Features\\student\\quaries\\Models\\GetStudentListQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:46:29.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\Implemantation\\StudentService.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Service\\Implemantation\\StudentService.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\Implemantation\\StudentService.cs",
+              "RelativeToolTip": "SchoolApp.Service\\Implemantation\\StudentService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:56:11.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolAppApi\\Program.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Program.cs",
+              "RelativeToolTip": "SchoolAppApi\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T01:17:04.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudnetHandler.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\Features\\student\\quaries\\Handler\\StudnetHandler.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Core\\Features\\student\\quaries\\Handler\\StudnetHandler.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\Features\\student\\quaries\\Handler\\StudnetHandler.cs",
+              "RelativeToolTip": "SchoolApp.Core\\Features\\student\\quaries\\Handler\\StudnetHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIBJwB8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:05:46.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "SchoolAppApi\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "SchoolAppApi\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:21:04.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModuleCoreDependencies.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\ModuleCoreDependencies.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Core\\ModuleCoreDependencies.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\ModuleCoreDependencies.cs",
+              "RelativeToolTip": "SchoolApp.Core\\ModuleCoreDependencies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADgvwkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T23:44:39.091Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ModuleServiceDependencies.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\ModuleServiceDependencies.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Service\\ModuleServiceDependencies.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\ModuleServiceDependencies.cs",
+              "RelativeToolTip": "SchoolApp.Service\\ModuleServiceDependencies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:13:06.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "SchoolApp.Infrastructure\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:27:42.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\Abstract\\IStudentService.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Service\\Abstract\\IStudentService.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\Abstract\\IStudentService.cs",
+              "RelativeToolTip": "SchoolApp.Service\\Abstract\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:55:57.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Abstract\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Infrastructure\\Abstract\\IStudentRepository.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Abstract\\IStudentRepository.cs",
+              "RelativeToolTip": "SchoolApp.Infrastructure\\Abstract\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:26:08.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\Student.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Student.cs",
+              "RelativeToolTip": "SchoolApp.Data\\Entities\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T00:42:29.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\Department.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Department.cs",
+              "RelativeToolTip": "SchoolApp.Data\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAABRwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T00:45:32.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Subject.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\Subject.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Subject.cs",
+              "RelativeToolTip": "SchoolApp.Data\\Entities\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T01:28:10.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SchoolApp.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SchoolApp.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T01:02:16.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "StudentSubject.cs",
               "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\StudentSubject.cs",
               "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\StudentSubject.cs",
@@ -67,110 +294,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T00:43:58.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\Student.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Student.cs",
-              "RelativeToolTip": "SchoolApp.Data\\Entities\\Student.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T00:42:29.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DepartmetSubject.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\DepartmetSubject.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\DepartmetSubject.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\DepartmetSubject.cs",
-              "RelativeToolTip": "SchoolApp.Data\\Entities\\DepartmetSubject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T00:46:04.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Department.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Department.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\Department.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Department.cs",
-              "RelativeToolTip": "SchoolApp.Data\\Entities\\Department.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T00:45:32.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Subject.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Subject.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Data\\Entities\\Subject.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Data\\Entities\\Subject.cs",
-              "RelativeToolTip": "SchoolApp.Data\\Entities\\Subject.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T01:28:10.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SchoolApp.Infrastructure\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T01:02:16.344Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Program.cs",
-              "RelativeDocumentMoniker": "SchoolAppApi\\Program.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolAppApi\\Program.cs",
-              "RelativeToolTip": "SchoolAppApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T01:17:04.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Core\\Class1.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Core\\Class1.cs",
-              "RelativeToolTip": "SchoolApp.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T23:44:39.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\Class1.cs",
-              "RelativeDocumentMoniker": "SchoolApp.Service\\Class1.cs",
-              "ToolTip": "D:\\Full Stack\\Backend\\Web Api\\SchoolProject\\SchoolApp.Service\\Class1.cs",
-              "RelativeToolTip": "SchoolApp.Service\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T23:44:19.085Z",
               "EditorCaption": ""
             }
           ]

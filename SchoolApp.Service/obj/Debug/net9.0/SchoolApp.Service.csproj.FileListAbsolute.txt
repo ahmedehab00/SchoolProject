@@ -15,3 +15,4 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Service\obj\Debug\net9.0\S
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Service\obj\Debug\net9.0\refint\SchoolApp.Service.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Service\obj\Debug\net9.0\SchoolApp.Service.pdb
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Service\obj\Debug\net9.0\ref\SchoolApp.Service.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Service\obj\Debug\net9.0\SchoolApp.Service.sourcelink.json

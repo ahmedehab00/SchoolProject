@@ -12,4 +12,16 @@
     <ProjectReference Include="..\SchoolApp.Service\SchoolApp.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\student\Commands\Handler\" />
+    <Folder Include="Features\student\Commands\Models\" />
+    <Folder Include="Features\student\Commands\" />
+    <Folder Include="Features\student\Commands\Validation\" />
+    <Folder Include="Mapping\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.5.0" />
+  </ItemGroup>
+
 </Project>
