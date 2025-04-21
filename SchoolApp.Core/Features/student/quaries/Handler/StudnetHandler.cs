@@ -1,5 +1,9 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using Azure;
+using MediatR;
+using SchoolApp.Core.Bases;
 using SchoolApp.Core.Features.student.quaries.Models;
+using SchoolApp.Core.Features.student.quaries.Results;
 using SchoolApp.Data.Entities;
 using SchoolApp.Service.Abstract;
 using System;
@@ -11,25 +15,30 @@ using System.Threading.Tasks;
 
 namespace SchoolApp.Core.Features.student.quaries.Handler
 {
-    public class StudnetHandler : IRequestHandler<GetStudentListQuery, List<Student>>
+
+    public class StudentHandler : ResponseHandler,IRequestHandler<GetStudentListQuery, Bases.Response<List<GetStudentListResponse>>>
     {
         #region Fields
         private readonly IStudentService _studentService;
+        private readonly IMapper _mapper;
 
         #endregion
 
         #region Constructor
-        public StudnetHandler(IStudentService studentService)
+        public StudentHandler(IStudentService studentService,IMapper mapper)
         {
             _studentService = studentService;
+            _mapper = mapper;
         }
         #endregion
 
         #region Handle Function
         #endregion
-        public async Task<List<Student>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
+        public async Task<Bases.Response<List<GetStudentListResponse>>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
         {
-            return await _studentService.GetStudentsListAsync();
+            var studentList= await _studentService.GetStudentsListAsync();
+            var studentListMapper = _mapper.Map<List<GetStudentListResponse>>(studentList);
+            return Success( studentListMapper);
         }
     }
 }

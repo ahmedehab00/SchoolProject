@@ -178,3 +178,5 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\obj\Debug\net9.0\School
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\AutoMapper.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

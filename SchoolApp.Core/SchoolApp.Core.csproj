@@ -17,10 +17,11 @@
     <Folder Include="Features\student\Commands\Models\" />
     <Folder Include="Features\student\Commands\" />
     <Folder Include="Features\student\Commands\Validation\" />
-    <Folder Include="Mapping\" />
+    <Folder Include="Mapping\StudentsMapp\CommendMapping\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="MediatR" Version="12.5.0" />
   </ItemGroup>
 
