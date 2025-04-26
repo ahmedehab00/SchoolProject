@@ -10,5 +10,7 @@ namespace SchoolApp.Service.Abstract
     public interface IStudentService
     {
         Task<List<Student>>GetStudentsListAsync();
+        Task<Student> GetStudentByIdAsync(int id);
+        Task<string> AddAsync(Student student);
     }
 }
