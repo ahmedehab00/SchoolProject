@@ -1,65 +1,65 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.Extensions.Localization;
+using SchoolApp.Core.ShResources;
 
 namespace SchoolApp.Core.Bases
 {
     public class ResponseHandler
     {
+        private readonly IStringLocalizer<SharedResources> _stringLocalizer;
 
-        public ResponseHandler()
+        public ResponseHandler(IStringLocalizer<SharedResources> stringLocalizer)
         {
+            _stringLocalizer = stringLocalizer;
 
         }
 
-        public Response<T> Deleted<T>()
+        public Response<T> Deleted<T>(string Message = null)
         {
             return new Response<T>()
             {
-                StatusCode=System.Net.HttpStatusCode.OK,
-                Succeeded=true,
-                Message="Deleted Successfully"
+                StatusCode = System.Net.HttpStatusCode.OK,
+                Succeeded = true,
+                Message = Message == null ? _stringLocalizer[SharedResourcesKeys.Delete] : Message
+
             };
         }
 
-        public Response<T> Success<T>(T entity, object Meta=null) 
+        public Response<T> Success<T>(T entity, object Meta = null)
         {
             return new Response<T>()
             {
                 Data = entity,
-               StatusCode=System.Net.HttpStatusCode.OK,
-               Succeeded=true,
-               Message= "Added Successfully",
-               Meta = Meta
+                StatusCode = System.Net.HttpStatusCode.OK,
+                Succeeded = true,
+                Message = _stringLocalizer[SharedResourcesKeys.Success],
+                Meta = Meta
             };
         }
-        public Response<T> Unauthorized<T>(string Message=null)
+        public Response<T> Unauthorized<T>(string Message = null)
         {
             return new Response<T>()
             {
                 StatusCode = System.Net.HttpStatusCode.Unauthorized,
-                Succeeded=true,
-                Message= "Unauthorized"
+                Succeeded = true,
+                Message = "Unauthorized"
             };
         }
         public Response<T> BadRequest<T>(string Message = null)
         {
             return new Response<T>()
             {
-                StatusCode=System.Net.HttpStatusCode.BadRequest,
+                StatusCode = System.Net.HttpStatusCode.BadRequest,
                 Succeeded = false,
-                Message= Message==null?"Bad Request":Message
+                Message = Message == null ? "Bad Request" : Message
             };
         }
         public Response<T> UnprocessableEntity<T>(string Message = null)
         {
             return new Response<T>()
             {
-                StatusCode=System.Net.HttpStatusCode.UnprocessableEntity,
+                StatusCode = System.Net.HttpStatusCode.UnprocessableEntity,
                 Succeeded = false,
-                Message= Message==null? "Unprocessable Entity" : Message
+                Message = Message == null ? "Unprocessable Entity" : Message
             };
         }
         public Response<T> NotFound<T>(string message = null)
@@ -68,17 +68,17 @@ namespace SchoolApp.Core.Bases
             {
                 StatusCode = System.Net.HttpStatusCode.NotFound,
                 Succeeded = false,
-                Message =  message == null ? "Not Found" : message
+                Message = message == null ? "Not Found" : message
             };
         }
-        public Response<T> Created<T>(T entity, object Meta=null)
+        public Response<T> Created<T>(T entity, object Meta = null)
         {
             return new Response<T>()
             {
                 Data = entity,
                 StatusCode = System.Net.HttpStatusCode.Created,
                 Succeeded = true,
-                Message = "Created",
+                Message = _stringLocalizer[SharedResourcesKeys.Created],
                 Meta = Meta
             };
         }

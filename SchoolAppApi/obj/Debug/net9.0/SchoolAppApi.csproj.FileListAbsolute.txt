@@ -180,3 +180,8 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashb
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\AutoMapper.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\FluentValidation.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\Ar\SchoolApp.Core.resources.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolAppApi\bin\Debug\net9.0\en\SchoolApp.Core.resources.dll

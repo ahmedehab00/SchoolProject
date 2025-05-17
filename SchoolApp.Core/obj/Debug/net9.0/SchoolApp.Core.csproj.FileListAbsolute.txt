@@ -18,3 +18,10 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\refi
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\SchoolApp.Core.pdb
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\ref\SchoolApp.Core.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\SchoolApp.Core.sourcelink.json
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\bin\Debug\net9.0\Ar\SchoolApp.Core.resources.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\SchoolApp.Core.ShResources.Resources.Ar.resources
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\SchoolApp.Core.csproj.GenerateResource.cache
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\Ar\SchoolApp.Core.resources.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\bin\Debug\net9.0\en\SchoolApp.Core.resources.dll
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\SchoolApp.Core.ShResources.Resources.en.resources
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Core\obj\Debug\net9.0\en\SchoolApp.Core.resources.dll

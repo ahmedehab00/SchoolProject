@@ -1,6 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using SchoolApp.Service.Abstract;
-using SchoolApp.Service.Implemantation;
+﻿using FluentValidation;
+using MediatR;
+using Microsoft.Extensions.DependencyInjection;
+using SchoolApp.Core.Behaviors;
 using System.Reflection;
 
 namespace SchoolApp.Core
@@ -10,9 +11,14 @@ namespace SchoolApp.Core
         public static IServiceCollection AddCoreDependencies(this IServiceCollection services)
         {
             //Configuration of Mediator
-            services.AddMediatR(cfg=>cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
             // Configuration of Auto Mapper
             services.AddAutoMapper((Assembly.GetExecutingAssembly()));
+
+            // Get Validators
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            // 
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
             return services;
         }
     }

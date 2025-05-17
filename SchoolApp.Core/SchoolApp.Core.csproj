@@ -7,18 +7,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="ShResources\SharedResources.Ar.resx" />
+    <EmbeddedResource Remove="ShResources\SharedResources.En.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SchoolApp.Data\SchoolApp.Data.csproj" />
     <ProjectReference Include="..\SchoolApp.Infrastructure\SchoolApp.Infrastructure.csproj" />
     <ProjectReference Include="..\SchoolApp.Service\SchoolApp.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\student\Commands\Validation\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="9.0.4" />
   </ItemGroup>
 
 </Project>

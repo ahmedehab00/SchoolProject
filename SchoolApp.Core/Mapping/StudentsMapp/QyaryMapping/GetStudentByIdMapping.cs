@@ -1,10 +1,5 @@
 ﻿using SchoolApp.Core.Features.student.quaries.Results;
 using SchoolApp.Data.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SchoolApp.Core.Mapping.StudentsMapp
 {
@@ -13,7 +8,8 @@ namespace SchoolApp.Core.Mapping.StudentsMapp
         public void GetStudentByIdMapping()
         {
             CreateMap<Student, GetSingleStudentResponse>()
-                .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.Department.DName));
+                .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.Department.DNameAr))
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Localize(src.NameAr, src.NameEn)));
         }
     }
 }
