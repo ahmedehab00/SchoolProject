@@ -30,7 +30,7 @@ namespace SchoolApp.Core.Features.student.Commands.Validation
         #region Actions
         public void ApplyValidationRules()
         {
-            RuleFor(x => x.Name)
+            RuleFor(x => x.NameEn)
                 .NotEmpty().WithMessage(_stringLocalizer[SharedResourcesKeys.NotEmpty])
                 .NotNull().WithMessage("Name Must Not be Null")
                 .MaximumLength(10).WithMessage("Max Length is 10");
@@ -44,7 +44,7 @@ namespace SchoolApp.Core.Features.student.Commands.Validation
 
         public void ApplyCustomValidationRules()
         {
-            RuleFor(x => x.Name)
+            RuleFor(x => x.NameEn)
                 .MustAsync(async (Key, CancellationToken) => !await _studentService.IsNameExist(Key))
                 .WithMessage("Name Is Exist");
 

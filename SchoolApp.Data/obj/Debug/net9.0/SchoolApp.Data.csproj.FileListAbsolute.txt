@@ -10,3 +10,4 @@ D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Data\obj\Debug\net9.0\refi
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Data\obj\Debug\net9.0\SchoolApp.Data.pdb
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Data\obj\Debug\net9.0\ref\SchoolApp.Data.dll
 D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Data\obj\Debug\net9.0\SchoolApp.Data.sourcelink.json
+D:\Full Stack\Backend\Web Api\SchoolProject\SchoolApp.Data\obj\Debug\net9.0\SchoolApp.Data.csproj.AssemblyReference.cache

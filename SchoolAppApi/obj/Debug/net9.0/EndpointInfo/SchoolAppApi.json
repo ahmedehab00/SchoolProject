@@ -5,6 +5,29 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Department/Api/V1/Department/{id}": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Student/Api/V1/Student/List": {
       "get": {
         "tags": [
@@ -213,13 +236,17 @@
         "required": [
           "address",
           "departmentId",
-          "name"
+          "nameAr"
         ],
         "type": "object",
         "properties": {
-          "name": {
+          "nameAr": {
             "minLength": 1,
             "type": "string"
+          },
+          "nameEn": {
+            "type": "string",
+            "nullable": true
           },
           "address": {
             "minLength": 1,
@@ -243,7 +270,11 @@
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "nameAr": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameEn": {
             "type": "string",
             "nullable": true
           },

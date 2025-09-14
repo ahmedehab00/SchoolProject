@@ -1,12 +1,5 @@
-﻿using AutoMapper;
-using SchoolApp.Core.Features.student.Commands.Models;
-using SchoolApp.Core.Features.student.quaries.Results;
+﻿using SchoolApp.Core.Features.student.Commands.Models;
 using SchoolApp.Data.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 
 namespace SchoolApp.Core.Mapping.StudentsMapp
@@ -15,8 +8,10 @@ namespace SchoolApp.Core.Mapping.StudentsMapp
     {
         public void AddStudentCommandMapping()
         {
-            CreateMap<AddStudentCommand,Student>()
-                .ForMember(dest => dest.DID, opt => opt.MapFrom(src => src.DepartmentId));
+            CreateMap<AddStudentCommand, Student>()
+                .ForMember(dest => dest.DID, opt => opt.MapFrom(src => src.DepartmentId))
+                .ForMember(dest => dest.NameEn, opt => opt.MapFrom(src => src.NameEn))
+                .ForMember(dest => dest.NameAr, opt => opt.MapFrom(src => src.NameAr));
         }
     }
 }

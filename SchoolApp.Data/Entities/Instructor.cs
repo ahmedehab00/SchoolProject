@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SchoolApp.Data.Commons;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SchoolApp.Data.Entities
 {
-    public class Instructor
+    public class Instructor: GeneralLocalizableEntity
     {
 
         public Instructor()
@@ -32,7 +33,7 @@ namespace SchoolApp.Data.Entities
 
         [ForeignKey(nameof(SupervisorId))]
         [InverseProperty("Instructors")]
-        public Instructor Supervisor { get; set; }
+        public Instructor? Supervisor { get; set; }
 
         [InverseProperty("Supervisor")]
         public virtual ICollection<Instructor> Instructors { get; set; }

@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SchoolApp.Data.Commons;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SchoolApp.Data.Entities
 {
-    public class Subject
+    public class Subject: GeneralLocalizableEntity
     {
         public Subject()
         {
@@ -16,11 +17,11 @@ namespace SchoolApp.Data.Entities
 
         public int SubID { get; set; }
         [StringLength(500)]
-        public string SubjectNameAr { get; set; }
+        public string? SubjectNameAr { get; set; }
         [StringLength(500)]
 
-        public string SubjectNameEn { get; set; }
-        public DateTime Period { get; set; }
+        public string? SubjectNameEn { get; set; }
+        public int? Period { get; set; }
         [InverseProperty("Subject")]
         public virtual ICollection<StudentSubject> StudentsSubjects { get; set; }
         [InverseProperty("Subjects")]

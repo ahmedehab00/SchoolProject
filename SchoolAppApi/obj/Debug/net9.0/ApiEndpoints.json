@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "SchoolAppApi.Controllers.DepartmentController",
+    "Method": "GetDepartmentById",
+    "RelativePath": "api/Department/Api/V1/Department/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SchoolAppApi.Controllers.StudentController",
     "Method": "GetStudentById",
     "RelativePath": "api/Student/Api/V1/Student/{id}",
