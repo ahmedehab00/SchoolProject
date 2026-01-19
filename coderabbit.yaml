@@ -1,0 +1,15 @@
+# .coderabbit.yaml
+language: dotnet
+review:
+  enabled: true
+  rules:
+    - performance        # يبحث عن كود ثقيل أو غير فعال
+    - security           # يبحث عن ثغرات أو مشاكل حماية
+    - clean_code         # نصائح لتحسين جودة الكود
+    - async_await        # نصائح لاستخدام async بشكل صحيح
+    - architecture       # يراجع هيكل المشروع (Clean Architecture)
+ignore_paths:
+  - "wwwroot/*"         # نتجنب ملفات الصور أو الـ Frontend
+  - "bin/*"             # مجلد البناء
+  - "obj/*"             # مجلد الـ temporary
+  - "*.json"            # نتجنب ملفات config
